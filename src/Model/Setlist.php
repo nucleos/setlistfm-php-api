@@ -13,9 +13,7 @@ namespace Nucleos\SetlistFm\Model;
 
 use DateTimeImmutable;
 
-/**
- * @psalm-immutable
- */
+
 final class Setlist
 {
     /**

@@ -231,7 +231,6 @@ final class PsrClientConnectionTest extends TestCase
     private function withParameter(InvokedCount $matcher, array $parameters): Closure
     {
         return static function () use ($matcher, $parameters): void {
-            /** @psalm-suppress InternalMethod */
             $callNumber = $matcher->numberOfInvocations();
 
             self::assertSame($parameters[$callNumber-1], \func_get_args(), sprintf('Call %s', $callNumber));
