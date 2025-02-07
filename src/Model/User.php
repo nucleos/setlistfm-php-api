@@ -11,7 +11,6 @@ declare(strict_types=1);
 
 namespace Nucleos\SetlistFm\Model;
 
-
 final class User
 {
     /**

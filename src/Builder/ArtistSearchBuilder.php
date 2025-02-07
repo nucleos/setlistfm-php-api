@@ -42,7 +42,7 @@ final class ArtistSearchBuilder
     public function sort(string $mode): self
     {
         if (!\in_array($mode, ['sortName', 'relevance'], true)) {
-            throw new InvalidArgumentException(sprintf('Invalid sort mode given: %s', $mode));
+            throw new InvalidArgumentException(\sprintf('Invalid sort mode given: %s', $mode));
         }
 
         $this->query['sort'] = $mode;

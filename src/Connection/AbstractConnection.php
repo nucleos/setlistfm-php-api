@@ -28,7 +28,7 @@ abstract class AbstractConnection implements ConnectionInterface
      */
     private $uri;
 
-    public function __construct(string $apikey, string $uri = null)
+    public function __construct(string $apikey, ?string $uri = null)
     {
         if (null === $uri) {
             $uri = static::DEFAULT_WS_ENDPOINT;
