@@ -35,7 +35,7 @@ final class PsrClientConnection extends AbstractConnection
     /**
      * Initialize client.
      */
-    public function __construct(ClientInterface $client, RequestFactoryInterface $requestFactory, string $apiKey, string $uri = null)
+    public function __construct(ClientInterface $client, RequestFactoryInterface $requestFactory, string $apiKey, ?string $uri = null)
     {
         parent::__construct($apiKey, $uri);
 

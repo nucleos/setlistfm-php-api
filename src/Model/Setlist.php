@@ -13,7 +13,6 @@ namespace Nucleos\SetlistFm\Model;
 
 use DateTimeImmutable;
 
-
 final class Setlist
 {
     /**

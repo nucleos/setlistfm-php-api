@@ -233,7 +233,7 @@ final class PsrClientConnectionTest extends TestCase
         return static function () use ($matcher, $parameters): void {
             $callNumber = $matcher->numberOfInvocations();
 
-            self::assertSame($parameters[$callNumber-1], \func_get_args(), sprintf('Call %s', $callNumber));
+            self::assertSame($parameters[$callNumber-1], \func_get_args(), \sprintf('Call %s', $callNumber));
         };
     }
 }
