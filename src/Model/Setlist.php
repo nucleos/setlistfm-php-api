@@ -68,7 +68,7 @@ final class Setlist
     /**
      * @param Set[] $sets
      *
-     * @SuppressWarnings(PHPMD.ExcessiveParameterList)
+     * @SuppressWarnings("PHPMD.ExcessiveParameterList")
      */
     public function __construct(
         string $id,
@@ -148,7 +148,7 @@ final class Setlist
     }
 
     /**
-     * @SuppressWarnings(PHPMD.CyclomaticComplexity)
+     * @SuppressWarnings("PHPMD.CyclomaticComplexity")
      */
     public static function fromApi(array $data): self
     {

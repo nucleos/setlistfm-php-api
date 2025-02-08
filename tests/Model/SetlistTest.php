@@ -18,7 +18,7 @@ use PHPUnit\Framework\TestCase;
 final class SetlistTest extends TestCase
 {
     /**
-     * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
+     * @SuppressWarnings("PHPMD.ExcessiveMethodLength")
      */
     public function testFromApi(): void
     {
@@ -135,7 +135,7 @@ EOD;
     }
 
     /**
-     * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
+     * @SuppressWarnings("PHPMD.ExcessiveMethodLength")
      */
     public function testFromApiWithSingleSet(): void
     {

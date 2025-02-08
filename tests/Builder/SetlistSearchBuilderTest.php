@@ -16,7 +16,7 @@ use Nucleos\SetlistFm\Builder\SetlistSearchBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @SuppressWarnings(PHPMD.TooManyPublicMethods)
+ * @SuppressWarnings("PHPMD.TooManyPublicMethods")
  */
 final class SetlistSearchBuilderTest extends TestCase
 {
