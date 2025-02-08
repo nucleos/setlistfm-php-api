@@ -10,7 +10,6 @@ Setlist.fm PHP library
 
 [![Continuous Integration](https://github.com/nucleos/setlistfm/actions/workflows/continuous-integration.yml/badge.svg?event=push)](https://github.com/nucleos/setlistfm/actions?query=workflow%3A"Continuous+Integration"+event%3Apush)
 [![Code Coverage](https://codecov.io/gh/nucleos/setlistfm/graph/badge.svg)](https://codecov.io/gh/nucleos/setlistfm)
-[![Type Coverage](https://shepherd.dev/github/nucleos/setlistfm/coverage.svg)](https://shepherd.dev/github/nucleos/setlistfm)
 
 This library provides a wrapper for using the [Setlist.fm API] inside PHP and a bridge for symfony.
 
